@@ -1,16 +1,9 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <Champions />
 </template>
 
 <script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import { onMounted } from "@vue/runtime-core";
-
-import HelloWorld from "./components/HelloWorld.vue";
-
-onMounted(() => console.log(import.meta.env.VITE_DATA_DRAGON));
+  import Champions from "./views/Champions.vue";
 </script>
 
 <style>
